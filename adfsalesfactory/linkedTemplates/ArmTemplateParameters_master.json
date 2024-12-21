@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfsalesfactory"
+		},
+		"AzureBlobStorageLanding_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorageStaging_connectionString": {
+			"value": ""
+		},
+		"LS_AzureDataBricks_accessToken": {
+			"value": ""
+		},
+		"LS_LandingStorage_connectionString": {
+			"value": ""
+		},
+		"LS_StagingStorage_connectionString": {
+			"value": ""
+		},
+		"LS_databricks_accessToken": {
+			"value": ""
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
