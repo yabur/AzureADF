@@ -1,0 +1,19 @@
+{
+	"name": "salesstaging_parquet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_StagingStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "staging-container"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
