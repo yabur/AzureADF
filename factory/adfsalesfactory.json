@@ -1,0 +1,9 @@
+{
+	"name": "adfsalesfactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1bba8652-9330-4bef-b790-8716960243d5",
+		"tenantId": "d7720e47-a110-4d15-9059-e88bd96646f9"
+	}
+}
